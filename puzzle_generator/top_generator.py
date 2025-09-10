@@ -17,9 +17,9 @@ import os
 DEBUG=0
 
 #Input data/parameters
-imgfilename='yellow_flowers.jpg'
-ncols=15 #nunber of columns
-nrows=10 #number of rows
+imgfilename='ladybirds.jpg'
+ncols=3 #nunber of columns
+nrows=4 #number of rows
 jitter=0.125 #Measure of the random variation for the location of the corners of each piece
 bkgcolor=(0,255,0) #Greenscreen colour for the background of the pieces
 
