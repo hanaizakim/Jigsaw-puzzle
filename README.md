@@ -12,24 +12,24 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 
 ### Single piece processing (left to right)
-<p>
-  <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/p05.jpg" alt="jigsaw piece" width="20%"/>
-    <sub>Jigsaw piece</sub>
-  </span>
-  <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/contour.jpg" alt="contour" width="20%"/>
-    <sub>Contour</sub>
-  </span>
-  <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/green_removed.jpg" alt="background removal" width="20%"/>
-    <sub>Background removal</sub>
-  </span>
-  <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/coloured_edges.jpg" alt="edge detection" width="100%"/>
-    <sub>Edge detection</sub>
-  </span>
-</p>
+<div style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%;">
+  <div style="text-align: center;">
+    <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100px; display: block; margin: 0 auto;"/>
+    <div>Jigsaw piece</div>
+  </div>
+  <div style="text-align: center;">
+    <img src="present/contour.jpg" alt="contour" style="width: 100px; display: block; margin: 0 auto;"/>
+    <div>Contour</div>
+  </div>
+  <div style="text-align: center;">
+    <img src="present/green_removed.jpg" alt="background removal" style="width: 100px; display: block; margin: 0 auto;"/>
+    <div>Background removal</div>
+  </div>
+  <div style="text-align: center;">
+    <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100px; display: block; margin: 0 auto;"/>
+    <div>Edge detection</div>
+  </div>
+</div>
 
 ### Solved
 ![Sheet music solved](present/sheet_music_solved.jpg)
