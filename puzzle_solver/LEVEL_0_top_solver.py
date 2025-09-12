@@ -20,7 +20,7 @@ from LEVEL_1_matching import Check_end
 
 
 #find files in foldername
-foldername='rose_8x10'
+foldername='sheet_music_3x4'
 
 #load pieces
 pieces,filename=Load_pieces(foldername)
