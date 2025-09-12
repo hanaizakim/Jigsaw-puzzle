@@ -15,15 +15,15 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 <table>
     <tr>
         <td><img src="present/p05.jpg" width="100"/></td>
-        <td><img src="present/p05.jpg" width="100"/></td>
-        <td><img src="present/p05.jpg" width="100"/></td>
-        <td><img src="present/p05.jpg" width="100"/></td>
+        <td><img src="present/contour.jpg" width="100"/></td>
+        <td><img src="present/green_removed.jpg" width="100"/></td>
+        <td><img src="present/coloured_edges.jpg" width="100"/></td>
     </tr>
     <tr>
         <td align="center">Jigsaw piece</td>
-        <td align="center">Jigsaw piece</td>
-        <td align="center">Jigsaw piece</td>
-        <td align="center">Jigsaw piece</td>
+        <td align="center">Piece contour</td>
+        <td align="center">Background removal</td>
+        <td align="center">Edge detection</td>
     </tr>
 </table>
 
