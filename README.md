@@ -16,22 +16,18 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100px;"/>
-    <div>Jigsaw piece</div>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="present/contour.jpg" alt="contour" style="width: 100px;"/>
-    <div>Contour</div>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="present/green_removed.jpg" alt="background removal" style="width: 100px;"/>
-    <div>Background removal</div>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100px;"/>
-    <div>Edge detection</div>
   </div>
 
 </div>
