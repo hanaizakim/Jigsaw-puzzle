@@ -14,23 +14,19 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 ### Single piece processing (left to right)
 <p>
   <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/p05.jpg" alt="jigsaw piece" width="100%"/>
-    <br/>
+    <img src="present/p05.jpg" alt="jigsaw piece" width="20%"/>
     <sub>Jigsaw piece</sub>
   </span>
   <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/contour.jpg" alt="contour" width="100%"/>
-    <br/>
+    <img src="present/contour.jpg" alt="contour" width="20%"/>
     <sub>Contour</sub>
   </span>
   <span style="display:inline-block; width:24%; text-align:center;">
-    <img src="present/green_removed.jpg" alt="background removal" width="100%"/>
-    <br/>
+    <img src="present/green_removed.jpg" alt="background removal" width="20%"/>
     <sub>Background removal</sub>
   </span>
   <span style="display:inline-block; width:24%; text-align:center;">
     <img src="present/coloured_edges.jpg" alt="edge detection" width="100%"/>
-    <br/>
     <sub>Edge detection</sub>
   </span>
 </p>
@@ -42,11 +38,11 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 <p>
   <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — Generated jigsaw puzzle pieces" width="49%"/>
-  <img src="present/sheet_music_solved.jpg" alt="Sheet music Solved" width="49%"/>
+  <img src="present/sheet_music_solved.jpg" alt="Sheet music Solved" width="45%"/>
 </p>
 <p>
   <img src="present/ladybirds_all_pieces_green.jpg" alt="Ladybirds — Generated jigsaw puzzle pieces" width="49%"/>
-  <img src="present/ladybirds_solved.jpg" alt="Ladybirds Solved" width="49%"/>
+  <img src="present/ladybirds_solved.jpg" alt="Ladybirds Solved" width="45%"/>
 </p>
 <p>
   <img src="present/rose_all_pieces_green.jpg" alt="Rose — Generated jigsaw puzzle pieces" width="49%"/>
