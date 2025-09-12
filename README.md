@@ -29,10 +29,10 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 
 
-### Solved
+### Jigsaw puzzle solved by aligning compatible edges
 ![Sheet music solved](present/sheet_music_solved.jpg)
 
-## Examples
+## More examples
 
 <p>
   <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — Generated jigsaw puzzle pieces" width="49%"/>
