@@ -11,28 +11,31 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 </p>
 
 
-### Single piece processing <div style="display: flex; flex-direction: column; gap: 20px;">
+### Single piece processing
+<div style="display: flex; flex-direction: column; gap: 20px;">
 
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100px;"/>
-    <div style="text-align: center;">Jigsaw piece</div>
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="present/p05.jpg" alt="jigsaw piece" style="width: 150px;"/>
+    <div>Jigsaw piece</div>
   </div>
 
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="present/contour.jpg" alt="contour" style="width: 100px;"/>
-    <div style="text-align: center;">Contour</div>
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="present/contour.jpg" alt="contour" style="width: 150px;"/>
+    <div>Contour</div>
   </div>
 
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="present/green_removed.jpg" alt="background removal" style="width: 100px;"/>
-    <div style="text-align: center;">Background removal</div>
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="present/green_removed.jpg" alt="background removal" style="width: 150px;"/>
+    <div>Background removal</div>
   </div>
 
-  <div style="display: flex; align-items: center; gap: 10px;">
-    <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100px;"/>
-    <div style="text-align: center;">Edge detection</div>
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 150px;"/>
+    <div>Edge detection</div>
   </div>
+
 </div>
+
 
 
 ### Solved
