@@ -15,21 +15,37 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 <div style="
   display: grid;
   grid-template-columns: repeat(4, 150px);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 150px 150px;
   gap: 10px;
   justify-content: center;
   text-align: center;
 ">
 
-  <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100%;"/>
-  <img src="present/contour.jpg" alt="contour" style="width: 100%;"/>
-  <img src="present/green_removed.jpg" alt="background removal" style="width: 100%;"/>
-  <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100%;"/>
+  <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100%; height: 100%; object-fit: contain;"/>
+  <img src="present/contour.jpg" alt="contour" style="width: 100%; height: 100%; object-fit: contain;"/>
+  <img src="present/green_removed.jpg" alt="background removal" style="width: 100%; height: 100%; object-fit: contain;"/>
+  <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100%; height: 100%; object-fit: contain;"/>
 
-  <div>Jigsaw piece</div>
-  <div>Contour</div>
-  <div>Background removal</div>
-  <div>Edge detection</div>
+  <div style="
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
+    Jigsaw piece
+  </div>
+  <div style="
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
+    Contour
+  </div>
+  <div style="
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
+    Background removal
+  </div>
+  <div style="
+    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
+    Edge detection
+  </div>
 
 </div>
 
