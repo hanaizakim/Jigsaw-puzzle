@@ -12,7 +12,14 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 
 ### Single piece processing
-<div style="display: grid; grid-template-columns: repeat(4, 150px); grid-template-rows: auto auto; gap: 10px; justify-content: center; text-align: center;">
+<div style="
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+">
 
   <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100%;"/>
   <img src="present/contour.jpg" alt="contour" style="width: 100%;"/>
