@@ -17,7 +17,7 @@ import os
 DEBUG=0
 
 #Input data/parameters
-imgfilename='ladybirds.jpg'
+imgfilename='sheet_music.jpg'
 ncols=3 #nunber of columns
 nrows=4 #number of rows
 jitter=0.125 #Measure of the random variation for the location of the corners of each piece

@@ -1,22 +1,31 @@
 # Jigsaw-puzzle solver
 Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape analysis used to characterise each piece and to reconstruct the original image by aligning compatible edges.
 
-## Example: Yellow Flowers Puzzle
+## Sheet music
 
-### Original Image
-![Yellow Flowers](yellow_flowers.JPG)
+### Original image
+![Sheet music original](sheet_music.jpg)
 
-### Generated Puzzle Pieces (showing first 9 pieces)
-The puzzle has been divided into 150 pieces (10x15 grid). Here are the first 9 pieces:
+### All pieces (green background)
+![Sheet music — all pieces (green)](present/sheet_music_all_pieces_green.png)
 
-| p000 | p001 | p002 |
-|------|------|------|
-| ![p000](yellow_flowers_10x15/p000.jpg) | ![p001](yellow_flowers_10x15/p001.jpg) | ![p002](yellow_flowers_10x15/p002.jpg) |
+### Single piece processing (left to right)
+<p>
+  <img src="present/p05.jpg" alt="p05" width="19%"/>
+  <img src="present/contour.png" alt="contour" width="19%"/>
+  <img src="present/green_removed.png" alt="green removed" width="19%"/>
+  <img src="present/coloured_edges.png" alt="coloured edges" width="19%"/>
+</p>
 
-| p003 | p004 | p005 |
-|------|------|------|
-| ![p003](yellow_flowers_10x15/p003.jpg) | ![p004](yellow_flowers_10x15/p004.jpg) | ![p005](yellow_flowers_10x15/p005.jpg) |
+### Solved
+![Sheet music solved](present/sheet_music_solved.png)
 
-| p006 | p007 | p008 |
-|------|------|------|
-| ![p006](yellow_flowers_10x15/p006.jpg) | ![p007](yellow_flowers_10x15/p007.jpg) | ![p008](yellow_flowers_10x15/p008.jpg) |
+## Comparisons
+
+### 3x2 grid: All pieces (green) vs solved
+
+| All pieces (green) | Solved |
+|---|---|
+| ![Sheet music — all pieces (green)](present/sheet_music_all_pieces_green.png) | ![Sheet music solved](present/sheet_music_solved.png) |
+| ![Ladybirds — all pieces (green)](present/ladybirds_all_pieces_green.png) | ![Ladybirds solved](present/ladybirds_solved.png) |
+| ![Rose — all pieces (green)](present/rose_all_pieces_green.png) | ![Rose solved](present/rose_solved.jpg) |

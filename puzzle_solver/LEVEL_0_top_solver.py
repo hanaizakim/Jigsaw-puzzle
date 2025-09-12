@@ -20,9 +20,7 @@ from LEVEL_1_matching import Check_end
 
 
 #find files in foldername
-foldername='sheet_music_3x4'
-#foldername= 'ladybirds_4x3'
-
+foldername='rose_8x10'
 
 #load pieces
 pieces,filename=Load_pieces(foldername)
@@ -57,15 +55,6 @@ for i in range(len(pieces)):
 
     #find edge type
     Edge_type(pieces[i])
-
-#################
-plt.imshow(pieces[i].mask)
-plt.show()
-plt.imshow(pieces[i].image)
-plt.show()
-plt.imshow(pieces[i].contour)
-plt.show()
-#################
 
 pieces_og= pieces[:].copy()
 
