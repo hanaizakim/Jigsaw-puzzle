@@ -12,23 +12,17 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 
 ### Single piece processing
-<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+<div style="display: grid; grid-template-columns: repeat(4, 150px); grid-template-rows: auto auto; gap: 10px; justify-content: center; text-align: center;">
 
-  <!-- Row of images -->
-  <div style="display: flex; gap: 20px; justify-content: center;">
-    <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100px;"/>
-    <img src="present/contour.jpg" alt="contour" style="width: 100px;"/>
-    <img src="present/green_removed.jpg" alt="background removal" style="width: 100px;"/>
-    <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100px;"/>
-  </div>
+  <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100%;"/>
+  <img src="present/contour.jpg" alt="contour" style="width: 100%;"/>
+  <img src="present/green_removed.jpg" alt="background removal" style="width: 100%;"/>
+  <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100%;"/>
 
-  <!-- Row of labels -->
-  <div style="display: flex; gap: 20px; justify-content: center;">
-    <div>Jigsaw piece</div>
-    <div>Contour</div>
-    <div>Background removal</div>
-    <div>Edge detection</div>
-  </div>
+  <div>Jigsaw piece</div>
+  <div>Contour</div>
+  <div>Background removal</div>
+  <div>Edge detection</div>
 
 </div>
 
