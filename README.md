@@ -5,9 +5,13 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 ### Original image and synthesised jigsaw puzzle pieces
 <p>
-  <img src="sheet_music.jpg" alt="Sheet music original" width="40%"/>
-  <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — all pieces (green)" width="58%"/>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="sheet_music.jpg" alt="Sheet music original" width="45%"/>
+  </span>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — Generated jigsaw puzzle pieces" width="52%"/>
 
+  </span>
 </p>
 
 
@@ -41,14 +45,38 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 ## Examples
 
 <p>
-  <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — Generated jigsaw puzzle pieces" width="49%"/>
-  <img src="present/sheet_music_solved.jpg" alt="Sheet music Solved" width="49%"/>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/sheet_music_all_pieces_green.jpg" alt="Sheet music — Generated jigsaw puzzle pieces" width="100%"/>
+    <br/>
+    <sub>Sheet music — Generated jigsaw puzzle pieces</sub>
+  </span>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/sheet_music_solved.jpg" alt="Sheet music — Solved" width="100%"/>
+    <br/>
+    <sub>Sheet music — Solved</sub>
+  </span>
 </p>
 <p>
-  <img src="present/ladybirds_all_pieces_green.jpg" alt="Ladybirds — Generated jigsaw puzzle pieces" width="49%"/>
-  <img src="present/ladybirds_solved.jpg" alt="Ladybirds Solved" width="49%"/>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/ladybirds_all_pieces_green.jpg" alt="Ladybirds — Generated jigsaw puzzle pieces" width="100%"/>
+    <br/>
+    <sub>Ladybirds — Generated jigsaw puzzle pieces</sub>
+  </span>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/ladybirds_solved.jpg" alt="Ladybirds — Solved" width="100%"/>
+    <br/>
+    <sub>Ladybirds — Solved</sub>
+  </span>
 </p>
 <p>
-  <img src="present/rose_all_pieces_green.jpg" alt="Rose — Generated jigsaw puzzle pieces" width="49%"/>
-  <img src="present/rose_solved.jpg" alt="Rose Solved" width="49%"/>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/rose_all_pieces_green.jpg" alt="Rose — Generated jigsaw puzzle pieces" width="100%"/>
+    <br/>
+    <sub>Rose — Generated jigsaw puzzle pieces</sub>
+  </span>
+  <span style="display:inline-block; width:49%; text-align:center; vertical-align:top;">
+    <img src="present/rose_solved.jpg" alt="Rose — Solved" width="100%"/>
+    <br/>
+    <sub>Rose — Solved</sub>
+  </span>
 </p>
