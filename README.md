@@ -12,42 +12,21 @@ Synthesises jigsaw puzzle pieces from a given image. Contour detection and shape
 
 
 ### Single piece processing
-<div style="
-  display: grid;
-  grid-template-columns: repeat(4, 150px);
-  grid-template-rows: 150px 150px;
-  gap: 10px;
-  justify-content: center;
-  text-align: center;
-">
+<table>
+    <tr>
+        <td><img src="present/p05.jpg" width="100"/></td>
+        <td><img src="present/p05.jpg" width="100"/></td>
+        <td><img src="present/p05.jpg" width="100"/></td>
+        <td><img src="present/p05.jpg" width="100"/></td>
+    </tr>
+    <tr>
+        <td align="center">Jigsaw piece</td>
+        <td align="center">Jigsaw piece</td>
+        <td align="center">Jigsaw piece</td>
+        <td align="center">Jigsaw piece</td>
+    </tr>
+</table>
 
-  <img src="present/p05.jpg" alt="jigsaw piece" style="width: 100%; height: 100%; object-fit: contain;"/>
-  <img src="present/contour.jpg" alt="contour" style="width: 100%; height: 100%; object-fit: contain;"/>
-  <img src="present/green_removed.jpg" alt="background removal" style="width: 100%; height: 100%; object-fit: contain;"/>
-  <img src="present/coloured_edges.jpg" alt="edge detection" style="width: 100%; height: 100%; object-fit: contain;"/>
-
-  <div style="
-    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
-    Jigsaw piece
-  </div>
-  <div style="
-    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
-    Contour
-  </div>
-  <div style="
-    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
-    Background removal
-  </div>
-  <div style="
-    width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
-    border: 1px solid #ccc; background: #f9f9f9; font-weight: 600;">
-    Edge detection
-  </div>
-
-</div>
 
 
 ### Solved
